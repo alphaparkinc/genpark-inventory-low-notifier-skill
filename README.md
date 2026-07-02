@@ -1,3 +1,3 @@
-﻿# genpark-inventory-low-notifier-skill
+# genpark-inventory-low-notifier-skill
 
-Ready to use SDK library for genpark-inventory-low-notifier-skill.
+Production-ready agent skill for Inventory levels notify and alert triggers.

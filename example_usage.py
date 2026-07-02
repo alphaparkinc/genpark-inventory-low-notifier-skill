@@ -1,10 +1,6 @@
-﻿import sys
-from client import Client
+from client import InventoryNotifierClient
 def main():
-    if hasattr(sys.stdout, 'reconfigure'):
-        sys.stdout.reconfigure(encoding='utf-8')
-    c = Client()
-    res = c.process("Test Input")
-    print(res)
+    c = InventoryNotifierClient()
+    print(c.audit_inventory("SKU-ZEN-001", 3))
 if __name__ == '__main__':
     main()
